@@ -1,0 +1,291 @@
+<!doctype html>
+
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>ShYaruki_Myprofile</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  
+  	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+  <link rel="stylesheet" href="./css/homes.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/homes.js"></script>
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <div class='header'>
+    <div class='header__top'>
+    MyProfile
+    </div>
+    <div class='header__middle'>
+      <div class='header__middle--left'>
+      <p>ShYaruki</p>
+      </div>
+      <div class='header__middle--right'>
+        <ul class='main__tag--list'>
+          <li class='main__tag--title' href='#menu1'>
+            <i class='fas fa-user fa-head'></i>
+            <p class='menu-item'>MyProfile</p>
+          </li>
+          <li class='main__tag--title' href='#menu2'>
+            <i class='fas fa-pencil-alt fa-head'></i>
+            <p class='menu-item'>MySkill</p>
+          </li>
+          <li class='main__tag--title' href='#menu3'>
+            <i class='fa fa-book fa-head'></i>
+            <p class='menu-item'>MyWorks</p>
+          </li>
+          <li class='main__tag--title' href='#menu4'>
+            <i class='fas fa-envelope fa-head'></i>
+            <p class='menu-item'>Contact</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <img class='header__backimage' src='./public/backimage1.jpg'>
+  <!-- メインコンテンツ -->
+  <div class='main'>
+    <!-- タグ一覧 -->
+    <div class='main__tag'>
+      <i class='fas fa-arrow-right'></i>
+      content
+
+    </div>
+    <!-- 自己紹介欄 -->
+    <div class='main__content' id='menu1'>
+      <div class='myprofile'>
+        <i class='fas fa-user'></i>
+        <p class='menu-item'>MyProfile</p>
+      </div>
+      <div class='myprofile__content'>
+        <div class='myprofile__left'>
+          <div class='myprofile__left--image'>
+            <img height='150' src='./public/fire.png' width='150'>
+          </div>
+          <div class='myprofile__left--text'>
+            ShYaruki
+          </div>
+        </div>
+        <div class='myprofile__right'>
+          <div class='myprofile__right--text'>
+            【経歴】
+            <br><br>
+            ・1990年生まれ 青森県出身
+            <br><br>
+            ・青森県立青森高等学校を卒業後、北里大学医療衛生学部へ入学するも中退
+            <br><br>
+            ・大手焼き鳥居酒屋チェーン店でアルバイトとして2年半、その後正社員登用し1年半勤務
+            <br><br>
+            ・インフラIT企業へ転職し、1年勤務した後プログラマーへのキャリアチェンジを決意し退職
+            <br><br>
+            ・TECH::EXPERTの10週間プログラミング集中学習を経て、現在転職活動中
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- スキル紹介欄 -->
+    <div class='main__content' id='menu2'>
+      <div class='myskill'>
+        <i class='fas fa-pencil-alt'></i>
+        <p class='menu-item'>MySkill</p>
+      </div>
+      <!-- フロントサイド -->
+      <div class='myskill__content'>
+        <div class='myskill__left'>
+          <div class='myskill__left--title'>
+          MarkUp
+          </div>
+          <div class='myskill__left--content'>
+            <div class='myskill__text'>
+            HTML
+            </div>
+          <div class='myskill__bar'>
+            <span class='bar' style='width: 66%; background-color: #00FFFF;'></span>
+          </div>
+          </div>
+          <div class='myskill__left--content'>
+            <div class='myskill__text'>
+              CSS
+            </div>
+            <div class='myskill__bar'>
+              <span class='bar' style='width: 50%; background-color: #FFFF00;'></span>
+            </div>
+          </div>
+          <div class='myskill__left--content'>
+            <div class='myskill__text'>
+              Javascript
+            </div>
+            <div class='myskill__bar'>
+            <span class='bar' style='width: 20%; background-color: #FF6600;'></span>
+            </div>
+          </div>
+          <div class='myskill__left--content'>
+            <div class='myskill__text'>
+            jQuery
+            </div>
+            <div class='myskill__bar'>
+              <span class='bar' style='width: 33%; background-color: #FFD700;'></span>
+            </div>
+          </div>
+        </div>
+        <!-- サーバーサイド -->
+        <div class='myskill__center'>
+          <div class='myskill__center--title'>
+            ServerSide
+          </div>
+          <div class='myskill__center--content'>
+            <div class='myskill__text'>
+              Ruby
+            </div>
+            <div class='myskill__bar'>
+              <span class='bar' style='width: 50%; background-color: #FF3300;'></span>
+            </div>
+          </div>
+          <div class='myskill__center--content'>
+            <div class='myskill__text'>
+            Ruby on Rails
+            </div>
+            <div class='myskill__bar'>
+              <span class='bar' style='width: 50%; background-color: #FF3300;'></span>
+            </div>
+          </div>
+        </div>
+        <!-- インフラ -->
+        <div class='myskill__right'>
+          <div class='myskill__right--title'>
+            Infra
+          </div>
+          <div class='myskill__right--content'>
+            <div class='myskill__text'>
+              MySQL
+            </div>
+            <div class='myskill__bar'>
+              <span class='bar' style='width: 25%; background-color: #003399;'></span>
+            </div>
+          </div>
+          <div class='myskill__right--content'>
+            <div class='myskill__text'>
+              AWS
+            </div>
+            <div class='myskill__bar'>
+              <span class='bar' style='width: 20%; background-color: #6495ED;'></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class='myskill__greeting'>
+        現在はRailsを軸としたプログラミング学習を進めております。
+        <br>
+        サーバーサイドに興味があり、Railsの知見を深めつつ、Go、Vue.js、AWSの知識を今後身に付けていく方向性で考えております。
+      </p>
+    </div>
+    <!-- ポートフォリオ紹介欄 -->
+    <div class='main__content' id='menu3'>
+      <div class='myworks'>
+        <i class='fa fa-book'></i>
+        <p class='menu-item'>MyWorks</p>
+      </div>
+      <div class="myworks__description">
+        <p>GitHubアイコンをクリックでGitHubページへ遷移します。</p>
+      </div>
+      <div class="myworks__contents">
+        <div class="myworks__content">
+          <div class="myworks__content__top">
+            <a href="http://3.113.192.250/" target="_blank">
+              <img src="./public/chat-space.png" height="200" width="350" >
+            </a>
+            <a href="https://github.com/ShinYaruki/chat-space" class="myworks__github" target="_blank">
+              <img height='40' src='./public/github.png' width='40'>
+            </a>
+          </div>
+          <p class="myapp chatspace">chat-space</p>
+          <div class="myworks__content__bottom">
+            <p style="font-weight:bold">制作：2019年11月</p>
+            <p>Ajaxを使用した非同期通信チャットアプリです。</p>
+            <p>【使用技術】</p>
+            <p>Haml / Sass / Ruby on Rails / javascrupt /
+              <br>
+              jQuery / MySQL / AWS</p>
+          </div>
+        </div>
+        <div class="myworks__content">
+          <div class="myworks__content__top">
+            <a href="http://52.197.131.3/" target="_blank">
+              <img src="./public/freemarket.png" height="200" width="350">
+            </a>
+            <a href="https://github.com/ShinYaruki/freemarket_sample_64h" class="myworks__github" target="_blank">
+              <img height='40' src='./public/github.png' width='40'>
+            </a>
+          </div>
+          <p class="myapp freemarket">freemarket</p>
+          <div class="myworks__content__bottom">
+            <p style="font-weight:bold">制作：2019年12月</p>
+            <p>某大手フリマアプリのクローンサイトです。<br>
+              チームでのスクラム開発を行いました。<br>
+              私は商品の出品編集、デプロイを担当しました。<br>
+            <p>【使用技術】</p>
+            <p>Html / Sass / Ruby on Rails / javascrupt /
+              <br>
+              jQuery / MySQL / AWS</p>
+          </div>
+        </div>
+        <div class="myworks__content">
+          <div class="myworks__content__top">
+            <a href="http://www.tasqlock.com/" target="_blank">
+              <img src="./public/tasqlock.png" height="200" width="350">
+            </a>
+            <a href="https://github.com/ShinYaruki/TasQlock" class="myworks__github" target="_blank">
+              <img height='40' src='./public/github.png' width='40'>
+            </a>
+          </div>
+          <p class="myapp tasqlock">TasQlock</p>
+          <div class="myworks__content__bottom">
+            <p style="font-weight:bold">制作：2020年3月</p>
+            <p>カレンダーとタイマー機能を兼ね備えた<br>
+              タスク管理アプリケーションです。</p>
+            <p>【使用技術】</p>
+            <p>Haml / Sass / Ruby on Rails / javascrupt /
+              <br>
+              jQuery / MySQL / AWS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- コンタクト欄 -->
+    <div class='main__content' id='menu4'>
+      <div class='contact'>
+        <i class='fas fa-envelope'></i>
+        <p class='menu-item'>Contact</p>
+      </div>
+      <div class='contact__message'>
+      </div>
+      <div class='contact__list'>
+        <div class='contact__list--icon'>
+          <a href='https://note.com/shyaruki' target="_blank">
+            <img height='75' src='./public/note.png' width='75'>
+          </a>
+        </div>
+        <div class='contact__list--icon'>
+          <a href='https://github.com/ShinYaruki' target="_blank">
+            <img height='75' src='./public/github.png' width='75'>
+          </a>
+        </div>
+        <div class='contact__list--icon'>
+          <a href='https://qiita.com/ShYaruki' target="_blank">
+            <img height='75' src='./public/qiita.png' width='75'>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='footer'>
+    これからもよろしくお願いします。
+  </div>
+</body>
+</html>
